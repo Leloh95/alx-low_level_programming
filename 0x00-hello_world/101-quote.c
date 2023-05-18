@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  *main -start program
- * Return: 0(success)
+ * Return: 1(success)
  */
 int main(void)
 {
-putc('and that piece of art is useful/" /- Dora Korpar, 2015-10-19');
-	return (0);
+fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	return (1);
 }
