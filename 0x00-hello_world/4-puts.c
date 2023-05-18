@@ -1,6 +1,6 @@
 #include <stdio.h>
-/* main  -  for puts function to print a line
- * Return:0 (Sucessful code)
+/* main  -  start for program
+ * Return:0 (Sucess)
  * /
 int main(void)
 {
