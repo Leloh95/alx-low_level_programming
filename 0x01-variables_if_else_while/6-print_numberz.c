@@ -6,7 +6,7 @@
 int main(void)
 {
 int digit;
-char num;
+int num;
 
 for (digit = 0; digit < 10; digit++)
 putchar((digit % d) + '0');
