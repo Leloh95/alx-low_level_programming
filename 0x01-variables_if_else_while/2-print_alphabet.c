@@ -8,7 +8,7 @@ int main(void)
 char alphabet = 'a';
 while (alphabet <= 'z')
 {
-putchar(alphabet '\n');
+putchar(alphabet'\n');
 alphabet++;	
 }
 return (0);
