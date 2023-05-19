@@ -11,12 +11,11 @@ int main(void)
 	b = 'a';
 	c = 0;
 
-	while (c < 10)
-	{
+	while (c < 10) {
 		putchar(c + '0');
 		c++;
-	}
-	while (c <= 'f')
+			}
+	while (b <= 'f')
 	{
 		putchar(b);
 		b++;
