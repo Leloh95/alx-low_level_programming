@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-char alphabet;
-alphabet =[a - z];
-	{
+char alphabet ='a';
+while (alphabet <= 'z')
 	putchar(alphabet);
-	}
+	alphabet++;	
+}
 return (0);
 }
