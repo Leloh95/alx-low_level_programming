@@ -15,7 +15,7 @@ alphaL++;
 while (alphaU <= 'Z')
 {
 putchar(alphaU);
-alphaL++;
+alphaU++;
 }
 putchar ('\n');
 return (0);
