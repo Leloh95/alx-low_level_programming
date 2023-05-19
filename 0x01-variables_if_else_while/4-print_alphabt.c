@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - start of program
- * Return : 0(success)
+* main - start of program
+* Return : 0(success)
 */
- int main (void)
+int main(void)
 {
 char alphaL;
 for (alphaL = 'a'; alphaL <= 'z'; alphaL++)
