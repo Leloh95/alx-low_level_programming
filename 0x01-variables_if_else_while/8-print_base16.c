@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - start program
- * Return: 0(success)
- */
-
+* main - start program
+* Return: 0(success)
+*/
 int main(void)
 {
 char b;
