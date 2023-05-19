@@ -13,6 +13,5 @@ putchar((digit % d) + '0');
 for (num = 'a'; num <= 'f'; num++)
 putchar(num);
 putchar("\n");
-
 return (0);
 }
