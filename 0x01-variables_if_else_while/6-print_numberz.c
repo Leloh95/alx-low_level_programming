@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-int digit;
-int num;
-
-for (digit = 0; digit < 10; digit++)
-putchar((digit % d) + '0');
-for (num = 'a'; num <= 'f'; num++)
-putchar(num);
+int digit = 0;
+while (digit < 10)
+{
+putchar(digit + '0');
+digit++;
+}
 putchar("\n");
 return (0);
 }
