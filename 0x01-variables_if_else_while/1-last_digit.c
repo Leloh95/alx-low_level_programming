@@ -15,6 +15,7 @@ n = rand() - RAND_MAX / 2;
 
 /* your code goes there */
 	int S;
+
 	S = n % 10;
 
 if (S > 5)
