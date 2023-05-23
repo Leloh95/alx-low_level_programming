@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
-* _putchar - prints out all alphabets
-* print_alphabet_x10 - prints alphabet x10 times
- */
-
+*_putchar - prints out all alphabets
+*Print_alphabet_x10 - prints alphabet x10 times
+*/
 void print_alphabet_x10(void)
 {
 char L;
