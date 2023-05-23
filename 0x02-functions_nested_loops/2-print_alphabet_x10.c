@@ -2,7 +2,7 @@
 
 /**
 *_putchar - prints out all alphabets
-*Print_alphabet_x10 - prints alphabet x10 times
+*print_alphabet_x10 - print alphabet x10 lines
 */
 void print_alphabet_x10(void)
 {
