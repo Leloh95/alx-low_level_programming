@@ -2,8 +2,8 @@
 
 /**
 * _putchar - prints out all alphabets
-* print_alphabet_x10 - prints alphabets in lowercase 10 times
-*/
+* print_alphabet_X10 - prints alphabets in lowercase 10 times
+ */
 
 void print_alphabet_x10(void)
 {
