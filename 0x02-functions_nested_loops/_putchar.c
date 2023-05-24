@@ -4,6 +4,8 @@
  * _putchar - input the character c to stdout
  * @c: the character to print
  * @n: the input character
+ * @a: input integer
+ * @b: input integer
  * Return: (success)
  */
 int _putchar(char c)
