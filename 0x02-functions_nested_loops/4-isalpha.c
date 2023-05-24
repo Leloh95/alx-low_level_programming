@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
-*  _isalpha - print lowercase characters
-* c - input characters
+*_isalpha - print lowercase characters
+*@c - input characters
 * main - start program
 * Return: 0
 */
