@@ -2,7 +2,7 @@
 
 /**
  *_abs - computes absolute value
- *n: integer data type for function
+ *@n: integer data type for function
  *Return: 0(success)
  */
 
