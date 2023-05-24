@@ -2,7 +2,7 @@
 
 /**
 * _islower - print lowercase characters
-*@c - input for character
+* @c - input for character
 *main - start program
 *Return: 0
 **/
