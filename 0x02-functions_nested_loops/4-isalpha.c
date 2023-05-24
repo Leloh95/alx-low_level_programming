@@ -2,8 +2,8 @@
 
 /**
 *_isalpha - print lowercase characters
-*@c - input characters
-* main - start program
+*c - input of function
+* Main - start program
 * Return: 0
 */
 
