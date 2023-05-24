@@ -2,7 +2,7 @@
 
 /**
 *_isalpha - print lowercase characters
-*c: input of function
+* @c: input of function
 * Main - start program
 * Return: 0
 */

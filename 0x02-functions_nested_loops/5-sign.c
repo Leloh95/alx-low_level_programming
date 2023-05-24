@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*print_sign - start program
-*n: checks input of function
+* print_sign - start program
+*@n: checks input of function
 *_putchar - prints characters
 */
 
