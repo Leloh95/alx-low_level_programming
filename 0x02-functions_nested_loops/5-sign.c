@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
-*int print_sign - start program
+* print_sign - start program
 *@n: checks input of function
 *_putchar - prints characters
+*Return: 0 (success)
+*Return: 1
+*Return: -1
 */
 
 int print_sign(int n)
