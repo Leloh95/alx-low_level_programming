@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * int _islower - print lowercase characters
+ * _islower - print lowercase characters
  * c - characters
  * main - start program
  * Return: 0
