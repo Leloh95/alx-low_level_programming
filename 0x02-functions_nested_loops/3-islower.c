@@ -2,22 +2,17 @@
 
 /**
  * int _islower - print lowercase characters
- * _putchar - print lowercase characters
+ * c - characters
+ * main - start program
  * Return: 0
  */
 
 int _islower(int c)
 {
 
-	char l = 'a';
-	if (l <= 'z')
-	{
-		_putchar(l);
-	}
-	_putchar('\n');
+if (c >= 97 && c <= 122)
 	return (1);
-	if (l = 'A' && l <= 'Z')
-	return (0);
+return (0);
 }
 
 
