@@ -5,8 +5,6 @@
 *@n: checks input of function
 *_putchar - prints characters
 *Return: 0 (success)
-*Return: 1
-*Return: -1
 */
 
 int print_sign(int n)
