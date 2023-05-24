@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * _putchar - input the character c to stdout
- * c: the character to print
+ * @c: the character to print
  * Return: (success)
  */
 int _putchar(char c)
