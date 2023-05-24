@@ -12,9 +12,7 @@ int lastN;
 if (n < 0)
 	lastN = -1 * (n % 10);
 else
-{
-	lastN = n % 10;
-	_putchar(lastN + '0');
-}
+lastN = n % 10;
+_putchar(lastN + '0');
 return (lastN);
 }
