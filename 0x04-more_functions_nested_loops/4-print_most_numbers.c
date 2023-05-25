@@ -2,7 +2,7 @@
 /**
 *print_most_numbers - check numbers from 0 to 9
 *putchar - print output
-*@: character input
+*@b: character input
 *Return: 0(success)
 */
 
