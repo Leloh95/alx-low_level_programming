@@ -1,14 +1,14 @@
 #include"main.h"
 /**
  * print_numbers - check numbers from 0 to 9
- * putchar - prints output
+ *_putchar - prints output
  * Return: 0(success)
  */
 void print_numbers(void)
 {
-	int b;
+	int b = 0;
 
-	for (b = 0; b <= 9; b++)
+	for (; b <= 9; b++)
 	{
 		if  (b != 2 && b != 4)
 		{
@@ -16,8 +16,8 @@ void print_numbers(void)
 		}
 		else
 		{
-		putchar(b + '0');
+		_putchar(b + '0');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
