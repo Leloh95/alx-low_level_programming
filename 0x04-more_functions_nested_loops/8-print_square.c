@@ -20,7 +20,7 @@ for (b = 0; b < size; b++)
 {
 for (a = 0; a < size; a++)
 {
-putchar(65);
+putchar(35);
 }
 putchar('\n');
 }
