@@ -17,6 +17,5 @@ for (b = 0; b < n; b++)
 {
 putchar(92);
 }
-}
 putchar('\n');
 }
