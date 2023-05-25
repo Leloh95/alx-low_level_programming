@@ -1,8 +1,7 @@
 #include"main.h"
-#include "_putchar.c"
 /**
 *_putchar - print out characters
-*_isupper - function to print characters
+*_isupper - check if c is uppercase
 *@c: character
 *Return: 0(success)
 */
