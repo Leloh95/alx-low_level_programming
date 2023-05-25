@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * more_numbers - print numbers 10 lines from 0 to 14
- * putchar - prints out characters
- */
+* more_numbers - print numbers 10 lines from 0 to 14
+* putchar - prints out characters
+*/
 
 void more_numbers(void)
 {
+
 int i = 0, x;
 
 while (i < 10)
