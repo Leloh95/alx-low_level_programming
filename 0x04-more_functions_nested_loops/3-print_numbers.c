@@ -1,6 +1,7 @@
 #include"main.h"
 /**
  * print_numbers - check numbers from 0 to 9
+ * putchar - prints output
  * Return: 0(success)
  */
 
@@ -10,8 +11,8 @@ int b;
 
 for (b = 0; b <= 9; b++)
 {
-_putchar(b + '0');
+putchar(b + '0');
 }
-_putchar('\n');
+putchar('\n');
 }
 
