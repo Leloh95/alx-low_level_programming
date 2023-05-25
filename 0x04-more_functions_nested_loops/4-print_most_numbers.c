@@ -1,13 +1,14 @@
 #include"main.h"
 /**
 *print_most_numbers - check numbers from 0 to 9
-*putchar - prints output
+*putchar - print output
+*@: character input
 *Return: 0(success)
 */
 
 void print_most_numbers(void)
 {
-int b = 0;
+int b;
 
 for (; b <= 9; b++)
 {
