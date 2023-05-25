@@ -13,7 +13,7 @@ putchar('\n');
 }
 else
 {
-for (b = 0; b > n; b++)
+for (b = 0; b < n; b++)
 {
 putchar(92);
 }
