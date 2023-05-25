@@ -10,7 +10,11 @@ void print_numbers(void)
 
 	for (b = 0; b <= 9; b++)
 	{
-		while (b != 2 && b != 4)
+		if  (b != 2 && b != 4)
+		{
+		continue;
+		}
+		else
 		{
 		putchar(b + '0');
 		}
