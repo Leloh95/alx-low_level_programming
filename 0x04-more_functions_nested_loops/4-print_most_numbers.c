@@ -16,7 +16,7 @@ continue;
 }
 else
 {
-putchar(b + '0');
+putchar(b + 0);
 }
 }
 putchar('\n');
