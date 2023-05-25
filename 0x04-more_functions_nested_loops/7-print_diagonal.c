@@ -6,7 +6,7 @@
 */
 void print_diagonal(int n)
 {
-int a, b;;
+int a, b;
 if (n <= 0)
 {
 putchar('\n');
