@@ -1,15 +1,16 @@
 #include"main.h"
 /**
 * print_diagonal - prints out \ linea
-*putchar - print out lines
+*_putchar - print out lines
 *@n: input character
 */
 void print_diagonal(int n)
 {
 int b, a;
+
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
@@ -18,11 +19,11 @@ for (b = 0; b < n; b++)
 for (a = 0; a < n; a++)
 {
 if (j == i)
-putchar('\\');
+_putchar('\\');
 else if (j < i)
-putchar(' ');
+_putchar(' ');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 }
