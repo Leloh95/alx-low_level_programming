@@ -2,7 +2,6 @@
 /**
  * more_numbers - print numbers 10 lines from 0 to 14
  * putchar - prints out characters
- * @j: line count
  */
 
 void more_numbers(void)
