@@ -1,9 +1,10 @@
 #include"main.h"
 /**
-* print_most_numbers - check numbers from 0 to 9
+*print_most_numbers - check numbers from 0 to 9
 *putchar - prints output
-* Return: 0(success)
+*Return: 0(success)
 */
+
 void print_most_numbers(void)
 {
 int b = 0;
