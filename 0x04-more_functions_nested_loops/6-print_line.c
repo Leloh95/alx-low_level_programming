@@ -7,12 +7,18 @@
 
 void print_line(int n)
 {
-n = 0;
-;
+int b;
+
 if (n <= 0)
+{
 putchar('-');
+}
 else
-putchar('\n');
+{
+for (b = 0; b > n; b++)
+{
+putchar(95);
 }
 putchar('\n');
+}
 }
