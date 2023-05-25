@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (; b <= 9; b++)
 	{
-		if  (b != 2 && b != 4)
+		if  (b == 2 || b == 4)
 		{
 		continue;
 		}
