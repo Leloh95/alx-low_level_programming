@@ -12,13 +12,13 @@ int b;
 for (b = 0; b <= 9; b++)
 {
 	if  (b == 2 || b == 4)
-	{
-	continue;
-	}	
+		{
+		continue;
+		}	
 	else
-	{
-	putchar(b + '0');
-	}
+		{
+		putchar(b + '0');
+		}
 }
 putchar('\n');
 }
