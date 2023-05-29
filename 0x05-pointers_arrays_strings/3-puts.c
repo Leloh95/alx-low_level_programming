@@ -2,7 +2,7 @@
 
 
 /**
- * _puts - function print out strings
+ *_puts - function print out strings in reverse
  * _putchar - outputs strings
  * @str: string
  * Return: returns 0
