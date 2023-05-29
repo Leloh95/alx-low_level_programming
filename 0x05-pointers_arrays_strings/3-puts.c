@@ -2,8 +2,9 @@
 
 
 /**
+ * _puts - function print out strings
  * _putchar - outputs strings
- * str: string
+ * @str: string
  * Return: returns 0
  */
 
