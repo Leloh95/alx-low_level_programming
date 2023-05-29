@@ -4,16 +4,21 @@
  * print_rev - print string in reverse
  *_puts - function print out strings in reverse
  * _putchar - outputs strings
- * @str: string
+ * @s: string
  * Return: returns 0
  */
 
-void print_rev(char *str)
+void print_rev(char *s)
 {
-while (*str != '\0')
+int c = 0;
+
+while (s[c] != '\0')
 {
-_putchar(*str++);
-print_rev(str);
+c++;
+}
+for (c -= 1; c >= 0; c--)
+{
+_putchar(s[c]);
 }
 _putchar('\n');
 
