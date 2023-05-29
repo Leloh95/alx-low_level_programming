@@ -2,17 +2,17 @@
 
 
 /**
- * _puts - outputs strings
- * @s: string
+ * _putchar - outputs strings
+ * str: string
  * Return: returns 0
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
-	for (; *s != '\0'; *s++)
-	{
-	_putchar(*s);
-	}
-	_putchar('\n');
+while (*str != '\0')
+{
+_putchar(*str++);
+}
+_putchar('\n');
 
 }
