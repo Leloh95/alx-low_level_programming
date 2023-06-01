@@ -31,3 +31,4 @@ index == 0)
 s[index] -= 32;
 index++;
 }
+}
