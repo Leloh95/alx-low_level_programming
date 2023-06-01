@@ -3,7 +3,7 @@
 /**
  *leet - function encodes strings
  *@n: input
- *Return: value
+ *Return: n value
  */
 
 char *leet(char *n)
@@ -21,6 +21,7 @@ if (n[a] == s1[b])
 n[a] = s2[b];
 }
 }
-return (n);
 }
+return (n);
+
 }
