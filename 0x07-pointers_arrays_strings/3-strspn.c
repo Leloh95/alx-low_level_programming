@@ -19,10 +19,9 @@ check = 0;
 for (b = 0; accept[b] != '\0'; b++)
 {
 if (accept[b] == s[a])
-{
 integer++;
 check = 1;
 }
-}
+if (check == 0)
 }
 }
