@@ -1,6 +1,5 @@
 #include"main.h"
 
-
 /**
  * set_string - sets value of pointer to char
  *@s:input
