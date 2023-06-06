@@ -17,7 +17,7 @@ for (i = 0; i < size; i++)
 }
 for (i = size - 1; i >= 0; i--)
 {
-sumB = sumB + a[i * size + (size - i 1)];
+sumB = sumB + a[i * size + (size - i - 1)];
 }
 printf("%d, %d\n", sumA, sumB);
 }
