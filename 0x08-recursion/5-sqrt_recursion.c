@@ -2,11 +2,15 @@
 #include<stdio.h>
 
 /**
- *_sqrt_recursion - print out squares
+ *_sqrt - print squares
+ *_sqrt_recursion - prints squares
  * @n: input
  * Return: 0(success)
+ *@i: input
  */
 int _sqrt(int n, int i)
+
+/* _sqrt_recursion - prints squares*/
 
 int _sqrt_recursion(int n)
 {
@@ -22,6 +26,7 @@ return (-1);
 
 if (sqrt == n)
 return (i);
+
 return (_sqrt(n, i + 1));
 }
 
