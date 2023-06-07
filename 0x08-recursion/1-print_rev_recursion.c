@@ -12,7 +12,7 @@ if (*s == '\0')
 {
 return;
 }
-_print_rev_recursion(*s)
+_print_rev_recursion(s)
 --s;
 _putchar(*s);
 }
