@@ -2,8 +2,9 @@
 
 /**
  *_strlen_recursion - print length 
+ *@s:string
+ *Return: 0(success)
  */
-
 
 int _strlen_recursion(char *s)
 {
