@@ -16,5 +16,6 @@ int i = 0;
 if (argc > i)
 printf("%s\n", argv[i]);
 i++;
-return (argv[i]);
+
+return (0);
 }
