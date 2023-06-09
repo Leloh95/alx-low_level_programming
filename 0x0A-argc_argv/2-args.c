@@ -15,7 +15,5 @@ int i = 0;
 if (argc > i)
 printf("%s\n", argv[i]);
 i++;
-if (argc < i)
-	return (1);
 return (0);
 }
