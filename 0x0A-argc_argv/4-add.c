@@ -10,7 +10,7 @@
  * Return: 0(success)
  */
 
-int main(int argc, int argv *[])
+int main(int argc, int *argv[])
 {
 	int a;
 	unsigned int b, sum = 0;
