@@ -1,6 +1,6 @@
 #include"main.h"
 #include<stdio.h>
-#include<stdlib>
+#include<stdlib.h>
 #include<string.h>
 
 /**
@@ -10,7 +10,7 @@
  * Return: 0(success)
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int a;
 	unsigned int b, sum = 0;
@@ -21,7 +21,7 @@ int main(int argc, int *argv[])
 		for (a = 1; a < argc; a++)
 		{
 			c = argv[a];
-			for (b = 0; v < strlen(c); b++)
+			for (b = 0; b < strlen(c); b++)
 			{
 				if (c[b] < 48 || c[b] > 57)
 				{
