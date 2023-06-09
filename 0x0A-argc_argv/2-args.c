@@ -5,7 +5,6 @@
  * main - start of program
  * @argc: counts arguments passed to it
  * @argv: counts strings
- * @i: counter
  * Return: 0(success)
  */
 
