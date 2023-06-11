@@ -1,13 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 /**
- *_ putchar - input the character c to stdout
- * @c: the character to print
- * @n: the input character
- * @a: first input integer
- * @b: second input integer
- * Return: (success)
- */
+* _putchar - input the character c to stdout
+*@c: character
+* Return: (success)
+*/
+
 int _putchar(char c)
 {
 return (write(1, &c, 1));
