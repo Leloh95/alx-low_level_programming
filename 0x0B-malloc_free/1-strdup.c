@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
-*_strup - returns pointer
+*_strdup - returns pointer
 *@str: string
 *Return: 0(succes)
 */
