@@ -3,11 +3,11 @@
 #include<stdio.h>
 
 /**
- *str_concat - concatenates two strings
- *@s1: fisrt string
- *@s2:second string
- *Return: 0(success)
- */
+*str_concat - concatenates two strings
+*@s1: fisrt string
+*@s2:second string
+*Return: 0(success)
+*/
 
 char *str_concat(char *s1, char *s2)
 {
@@ -21,9 +21,11 @@ s2 = "";
 while (s1[a])
 a++;
 while (s2[b])
-b++;	
+{
+b++;
+}
 d = a + b;
-s = malloc((sizeof(char) * d) + 1);
+s = malloc((sizeof(char) * d) +1);
 if (s == NULL)
 return (NULL);
 b = 0;
@@ -35,11 +37,11 @@ if (c >= a)
 {
 s[c] = s2[b];
 b++;
-		}
-		c++;
-	}
-	s[c] = '\0';
-	return (s);
+}
+c++;
+}
+s[c] = '\0';
+return (s);
 }
 
 
