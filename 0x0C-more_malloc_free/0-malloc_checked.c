@@ -15,10 +15,7 @@ void *malloc_checked(unsigned int b)
 
 	pntr = malloc(b);
 	if (pntr == NULL)
-	{
-		printf("Error: Failure, Exiting... \n");
 		exit(98);
-	}
 	return (pntr);
 
 }
