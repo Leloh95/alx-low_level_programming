@@ -1,4 +1,5 @@
-#ifndef ABS(x)
+#ifndef MAIN_H
 #define ABS(x)((x) < 0 ? -(x) : (x))
 
-#endif ABS(x)
+#endif /* MAIN_H */
+
