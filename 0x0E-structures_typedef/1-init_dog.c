@@ -1,5 +1,5 @@
-#include "dog.h"
-
+#include"dog.h"
+#include <stddef.h>
 /**
  * init_dog - changes struct
  *@name: user name
