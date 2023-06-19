@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- *init_dog- init dog
+ * init_dog - init variable
  * Return: Always 0.
  */
 int main(void)
