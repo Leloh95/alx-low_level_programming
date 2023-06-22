@@ -46,6 +46,6 @@ if (format)
 		i++;
 	}
 }
-		printf("\n");
-	va_end(types);
+printf("\n");
+va_end(types);
 }
