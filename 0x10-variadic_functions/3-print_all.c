@@ -24,19 +24,19 @@ if (format)
 		switch (format[i])
 		{
 			case 'c':
-				printf("%s%c", sepa, va_arg(types, int));
+				printf("%s %c", sepa, va_arg(types, int));
 				break;
 			case 'i':
-				printf("%s%d", sepa, va_arg(types, int));
+				printf("%s %d", sepa, va_arg(types, int));
 				break;
 			case 'f':
-				printf("%s%f", sepa, va_arg(types, double));
+				printf("%s %f", sepa, va_arg(types, double));
 				break;
 			case 's':
 				string = va_arg(types, char*);
 				if (!string)
 				string = "(nil)";
-				printf("%s%s", sepa, string);
+				printf("%s %s", sepa, string);
 					break;
 			default:
 				i++;
