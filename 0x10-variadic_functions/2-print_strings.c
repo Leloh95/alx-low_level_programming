@@ -3,26 +3,32 @@
 #include<stdio.h>
 
 /**
- * print_numbers - print numbers
+ * print_strings - print strings
  * @n: integer
  * @separator: pointer
  * @...: unknown
  * Return: 0
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-va_list nu;
+va_list str;
+char *string;
 unsigned int i = 0;
 
-va_start(nu, n);
+va_start(str, n);
 
 for (; i < n; i++)
 {
-printf("%d", va_arg(nu, int));
+string = va_arg(str, char*);
+if (string == NULL)
+	printf("(nil)");
+else
+	printf("%s", string);
+
 if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
-va_end(nu);
+va_end(str);
 }
