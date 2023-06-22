@@ -4,7 +4,7 @@
 
 /**
  * print_all - prints anything
- * @...: unknown 
+ * @...: unknown
  * @format: types of arguments passed
  * Return: 0
  */
@@ -19,9 +19,9 @@ va_start(types, format);
 
 if (format)
 {
-	while(format[i])
+	while (format[i])
 	{
-		switch(format[i])
+		switch (format[i])
 		{
 			case 'c':
 				printf("%s%c", sepa, va_arg(types, int));
