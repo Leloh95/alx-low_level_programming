@@ -18,8 +18,8 @@ while (h != NULL)
 	{
 	printf("[0] (nil)\n");
 	}
-	c++;
 	h = h->next;
+	c++
 }
 return (c);
 }
