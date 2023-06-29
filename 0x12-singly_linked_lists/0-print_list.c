@@ -19,7 +19,7 @@ while (h != NULL)
 	printf("[0] (nil)\n");
 	}
 	h = h->next;
-	c++
+	c++;
 }
 return (c);
 }
