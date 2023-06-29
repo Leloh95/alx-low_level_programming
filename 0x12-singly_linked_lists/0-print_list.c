@@ -6,7 +6,7 @@
  * @h:pointer
  * Return: 0
  */
-print_list(const list_t *h)
+size_t print_list(const list_t *h)
 {
 size_t c = 0;
 
