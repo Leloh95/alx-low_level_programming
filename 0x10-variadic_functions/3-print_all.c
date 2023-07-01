@@ -1,5 +1,6 @@
 #include"variadic_functions.h"
 #include<stdio.h>
+#include<stdlib.h>
 #include<stdarg.h>
 
 /**
@@ -15,7 +16,7 @@ char *string, *sepa = "";
 
 va_list types;
 
-va_start(types, format);
+va_start (types, format);
 
 if (format)
 {
