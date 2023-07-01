@@ -1,6 +1,6 @@
 #include"main.h"
 
-int check_prime(int n, int i)
+
 /**
 * is_prime_number - returns 1 for prime input number otherwise return 0
 *check_prime - checks for prime number
@@ -24,7 +24,7 @@ int check_prime(int n, int i)
 {
 	if (i == 1)
 		return (1);
-	
+
 	if (n % i == 0 && i > 1)
 		return (0);
 	return (check_prime(n, i - 1));
