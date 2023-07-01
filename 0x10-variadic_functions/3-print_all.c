@@ -1,6 +1,5 @@
 #include"variadic_functions.h"
 #include<stdio.h>
-#include<stdlib.h>
 #include<stdarg.h>
 
 /**
@@ -11,12 +10,11 @@
  */
 void print_all(const char * const format, ...)
 {
+va_list types;
 int i = 0;
 char *string, *sepa = "";
 
-va_list types;
-
-va_start (types, format);
+va_start(types, format);
 
 if (format)
 {
