@@ -38,7 +38,6 @@ size_t looped_listint_len(const listint_t *head)
 				node++;
 				big = big->next;
 			}
-
 			return (node);
 		}
 
