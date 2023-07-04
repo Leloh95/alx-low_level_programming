@@ -2,7 +2,7 @@
 
 /**
  * insert_nodeint_at_index - inserts a new node
- * @head: pointer to the first node 
+ * @head: pointer to the first node
  * @idx: index
  * @n: data for node
  * Return: pointer to the node
