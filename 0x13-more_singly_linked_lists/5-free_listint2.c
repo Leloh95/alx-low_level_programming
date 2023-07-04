@@ -1,5 +1,5 @@
 #include"lists.h"
-
+#include<stdlib.h>
 /**
  * free_listint2 - free listint
  * @head: first node
