@@ -8,6 +8,7 @@
  * Description: singly linked list node structure
  * 
  */
+
 typedef struct listint_s
 {
     int n;
@@ -15,6 +16,18 @@ typedef struct listint_s
 } listint_t;
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
+/**
+ * _putchar - inputs characters to sdtout
+ *@c: character to print
+ *@n:input character 
+ *@a: first input character
+ *@b: second input character
+ *Return: 0(success)
+ */
 
+int _putchar(char c)
+{
+return(write(1, &c, 1));
+}
 
 #endif /* LISTS_H */
