@@ -1,15 +1,15 @@
 #include "lists.h"
 #include <stdio.h>
 
-size_t looped_listint_len(const listint_t *head);
+size_t looped_listint_length(const listint_t *head);
 size_t print_listint_safe(const listint_t *head);
 
 /**
- * looped_listint_len - Counts the number of nodes
+ * looped_listint_length - Counts the number of nodes
  * @head: A pointer to the head of the list
  * Return: If the list is not looped - 0.
  */
-size_t looped_listint_len(const listint_t *head)
+size_t looped_listint_length(const listint_t *head)
 {
 const listint_t *big, *same;
 size_t node = 1;
@@ -57,7 +57,7 @@ size_t print_listint_safe(const listint_t *head)
 {
 size_t node, idx = 0;
 
-node = looped_listint_len(head);
+node = looped_listint_length(head);
 
 if (node == 0)
 {
