@@ -21,7 +21,7 @@ dprintf(STDERR_FILENO,
 exit(99);
 }
 
-return (thefile);
+return (file);
 }
 
 /**
