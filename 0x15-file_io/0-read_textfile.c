@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * read_textfile- Read text file print to the posix.
@@ -15,7 +14,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t wryt;
 
 fileit = open(filename, O_RDONLY);
-if (try == -1)
+if (fileit == -1)
 return (0);
 
 lett = malloc(sizeof(char) * letters);
