@@ -4,7 +4,7 @@ char *create_fileit(char *thefile);
 void close_fileit(int filed);
 
 /**
- * create_file - copies content to another file
+ * create_fileit - copies content to another file
  * @thefile: The name of the file
  * Return: 0
 */
