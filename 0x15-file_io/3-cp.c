@@ -1,6 +1,6 @@
 #include"main.h"
 
-char *create_file(char *thefile);
+char *create_fileit(char *thefile);
 void close_fileit(int filed);
 
 /**
@@ -8,7 +8,7 @@ void close_fileit(int filed);
  * @thefile: The name of the file
  * Return: 0
 */
-char *create_file(char *thefile)
+char *create_fileit(char *thefile)
 {
 char *file;
 
@@ -60,7 +60,7 @@ exit(97);
 
 file = create_fileit(argv[2]);
 openit = open(argv[1], O_RDONLY);
-readt = read(from, file, 1024);
+readt = read(openit, file, 1024);
 creat = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 do {
@@ -81,14 +81,14 @@ free(file);
 exit(99);
 }
 
-readt = read(openit, file 1024);
+readt = read(openit, file, 1024);
 creat = open(argv[2], O_WRONLY | O_APPEND);
 
 } while (readt > 0);
 
 free(file);
-close_file(openit);
-close_file(creat);
+close_fileit(openit);
+close_fileit(creat);
 
 return (0);
 }
